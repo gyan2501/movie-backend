@@ -46,6 +46,7 @@ moviesRouter.get("/:id", async (req, res) => {
   res.status(200).send({ message: "data", movie });
 });
 
+
 module.exports = {
   moviesRouter,
 };
